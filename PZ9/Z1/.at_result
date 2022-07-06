@@ -1,0 +1,148 @@
+{
+    "buildhost_description": {
+        "id": "lab002c02",
+        "os": "Linux 2.6.32-754.2.1.el6.x86_64 x86_64\n\"CentOS release 6.10 (Final)\"\n",
+        "compiler_version": "g++ (GCC) 6.2.0",
+        "debugger_version": "GNU gdb (GDB) 7.12",
+        "profiler_version": "valgrind-3.12.0"
+    },
+    "status": 4,
+    "compile_result": {
+        "status": 1,
+        "output": "main.cpp: In instantiation of ‘void BinStabloMapa<Tip1, Tip2>::obrisi(const Tip1&) [with Tip1 = int; Tip2 = int]’:\nmain.cpp:640:29:   required from here\nmain.cpp:304:26: warning: unused variable ‘q’ [-Wunused-variable]\n         Cvor<Tip1,Tip2>* q = nullptr;\n                          ^\nmain.cpp:307:25: warning: unused variable ‘rp’ [-Wunused-variable]\n         Cvor<Tip1,Tip2>*rp = nullptr;\n                         ^~\nmain.cpp: In member function ‘Cvor<Tip1, Tip2>* BinStabloMapa<Tip1, Tip2>::traziKljuc(Cvor<Tip1, Tip2>*, Tip1) const [with Tip1 = int; Tip2 = int]’:\nmain.cpp:202:5: warning: control reaches end of non-void function [-Wreturn-type]\n     }\n     ^",
+        "parsed_output": [
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "304",
+                "col": "26",
+                "message": "unused variable 'q'",
+                "output": "/tmp/buildservice/bs_3185/main.cpp:304:26: warning: unused variable ‘q’ [-Wunused-variable]         Cvor<Tip1,Tip2>* q = nullptr;                          ^",
+                "code": "Cvor<Tip1,Tip2>* q = nullptr;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "307",
+                "col": "25",
+                "message": "unused variable 'rp'",
+                "output": "/tmp/buildservice/bs_3185/main.cpp:307:25: warning: unused variable ‘rp’ [-Wunused-variable]         Cvor<Tip1,Tip2>*rp = nullptr;                         ^~/tmp/buildservice/bs_3185/main.cpp: In member function ‘Cvor<Tip1, Tip2>* BinStabloMapa<Tip1, Tip2>::traziKljuc(Cvor<Tip1, Tip2>*, Tip1) const [with Tip1 = int; Tip2 = int]’:",
+                "code": "Cvor<Tip1,Tip2>*rp = nullptr;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "202",
+                "col": "5",
+                "message": "control reaches end of non-void function",
+                "output": "/tmp/buildservice/bs_3185/main.cpp:202:5: warning: control reaches end of non-void function [-Wreturn-type]     }     ^",
+                "code": "}"
+            }
+        ]
+    },
+    "run_result": [],
+    "debug_result": [],
+    "profile_result": [],
+    "test_results": {
+        "1762": {
+            "status": 1,
+            "run_result": {
+                "output": "2 Hrvatska '' '' 3 '' 0 '' ",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1763": {
+            "status": 1,
+            "run_result": {
+                "output": "2 2 2 BiH 2 BiH 1 '' 0 ''",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1764": {
+            "status": 1,
+            "run_result": {
+                "output": "3 Sarajevo Tuzla 4",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1765": {
+            "status": 1,
+            "run_result": {
+                "output": "2 300 0 2 400 3",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1766": {
+            "status": 1,
+            "run_result": {
+                "output": "",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "2063": {
+            "status": 1,
+            "run_result": {
+                "output": "100 100 300 400 500 0",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "2064": {
+            "status": 1,
+            "run_result": {
+                "output": "11001",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        }
+    },
+    "queue_items": 0,
+    "time": 1578950940
+}

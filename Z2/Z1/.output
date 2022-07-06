@@ -1,0 +1,9 @@
+Testovi za DvostraniRed: 
+brojElemenata(): TEST USPJESAN
+brisi(): TEST USPJESAN
+staviNaCelo(): TEST USPJESAN
+staviNaVrh(): TEST USPJESAN
+skiniSaCela(): TEST USPJESAN
+skiniSaVrha(): TEST USPJESAN
+celo(): TEST USPJESAN
+vrh(): TEST USPJESAN

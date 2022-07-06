@@ -1,0 +1,42 @@
+/rhome/l/lbuturovic1/workspace/ASP/Z16/Z1/main.cpp: In function ‘void Test5()’:
+/rhome/l/lbuturovic1/workspace/ASP/Z16/Z1/main.cpp:645:86: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(narudzba["Amina"].second+narudzba["Vildana"].second+narudzba["Lejla"].second==5.5) std::cout << "Test5 USPJESAN\n";
+                                                                                      ^~~
+/rhome/l/lbuturovic1/workspace/ASP/Z16/Z1/main.cpp: In instantiation of ‘Tip2& NizMapa<Tip1, Tip2>::operator[](Tip1) [with Tip1 = double; Tip2 = int]’:
+/rhome/l/lbuturovic1/workspace/ASP/Z16/Z1/main.cpp:630:23:   required from here
+/rhome/l/lbuturovic1/workspace/ASP/Z16/Z1/main.cpp:57:29: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+             if(mapa[i].first==kljuc) return mapa[i].second;
+                ~~~~~~~~~~~~~^~~~~~~
+/rhome/l/lbuturovic1/workspace/ASP/Z16/Z1/main.cpp: In instantiation of ‘Tip2& HashMapa<Tip1, Tip2>::operator[](Tip1) [with Tip1 = int; Tip2 = int]’:
+/rhome/l/lbuturovic1/workspace/ASP/Z16/Z1/main.cpp:684:20:   required from here
+/rhome/l/lbuturovic1/workspace/ASP/Z16/Z1/main.cpp:550:69: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+             if(kljucevi[j]==nullptr|| ((*vrijednosti[j])) == Tip2() && (*(kljucevi[j]))==Tip1()) {
+                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/rhome/l/lbuturovic1/workspace/ASP/Z16/Z1/main.cpp: In instantiation of ‘std::pair<_T1, _T2>* HashMapa<Tip1, Tip2>::hash_trazi(Tip1) const [with Tip1 = int; Tip2 = int]’:
+/rhome/l/lbuturovic1/workspace/ASP/Z16/Z1/main.cpp:507:52:   required from ‘Tip2& HashMapa<Tip1, Tip2>::operator[](Tip1) [with Tip1 = int; Tip2 = int]’
+/rhome/l/lbuturovic1/workspace/ASP/Z16/Z1/main.cpp:684:20:   required from here
+/rhome/l/lbuturovic1/workspace/ASP/Z16/Z1/main.cpp:473:22: warning: unused variable ‘i’ [-Wunused-variable]
+         unsigned int i = 0;
+                      ^
+/rhome/l/lbuturovic1/workspace/ASP/Z16/Z1/main.cpp: In instantiation of ‘void BinStabloMapa<Tip1, Tip2>::obrisi(const Tip1&) [with Tip1 = int; Tip2 = int]’:
+/rhome/l/lbuturovic1/workspace/ASP/Z16/Z1/main.cpp:689:1:   required from here
+/rhome/l/lbuturovic1/workspace/ASP/Z16/Z1/main.cpp:304:26: warning: unused variable ‘q’ [-Wunused-variable]
+         Cvor<Tip1,Tip2>* q = nullptr;
+                          ^
+/rhome/l/lbuturovic1/workspace/ASP/Z16/Z1/main.cpp:307:25: warning: unused variable ‘rp’ [-Wunused-variable]
+         Cvor<Tip1,Tip2>*rp = nullptr;
+                         ^~
+/rhome/l/lbuturovic1/workspace/ASP/Z16/Z1/main.cpp: In instantiation of ‘const Tip2 NizMapa<Tip1, Tip2>::operator[](Tip1) const [with Tip1 = double; Tip2 = int]’:
+/rhome/l/lbuturovic1/workspace/ASP/Z16/Z1/main.cpp:689:1:   required from here
+/rhome/l/lbuturovic1/workspace/ASP/Z16/Z1/main.cpp:79:29: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+             if(mapa[i].first==kljuc) {
+                ~~~~~~~~~~~~~^~~~~~~
+/rhome/l/lbuturovic1/workspace/ASP/Z16/Z1/main.cpp: In instantiation of ‘void NizMapa<Tip1, Tip2>::obrisi(const Tip1&) [with Tip1 = double; Tip2 = int]’:
+/rhome/l/lbuturovic1/workspace/ASP/Z16/Z1/main.cpp:689:1:   required from here
+/rhome/l/lbuturovic1/workspace/ASP/Z16/Z1/main.cpp:102:30: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+             if(mapa[i].first == kljuc) {
+                ~~~~~~~~~~~~~~^~~~~~~~
+/rhome/l/lbuturovic1/workspace/ASP/Z16/Z1/main.cpp: In member function ‘Cvor<Tip1, Tip2>* BinStabloMapa<Tip1, Tip2>::traziKljuc(Cvor<Tip1, Tip2>*, Tip1) const [with Tip1 = int; Tip2 = int]’:
+/rhome/l/lbuturovic1/workspace/ASP/Z16/Z1/main.cpp:202:5: warning: control reaches end of non-void function [-Wreturn-type]
+     }
+     ^

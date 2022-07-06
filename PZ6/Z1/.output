@@ -1,0 +1,6 @@
+Odaberite algoritam sortiranja: 
+Za bubble_sort pritisnite 1
+Za selection_sort pritisnite 2
+Za quick_sort pritisnite 3
+Za merge_sort pritisnite 4
+Sortiranje se izvrsavalo 6135 ms.

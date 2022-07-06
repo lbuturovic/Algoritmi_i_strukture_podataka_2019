@@ -1,0 +1,22 @@
+/rhome/l/lbuturovic1/workspace/ASP/PZ2/Z1/main.cpp: In instantiation of ‘void TestObrisi(const L&) [with L = JednostrukaLista<int>]’:
+/rhome/l/lbuturovic1/workspace/ASP/PZ2/Z1/main.cpp:658:17:   required from here
+/rhome/l/lbuturovic1/workspace/ASP/PZ2/Z1/main.cpp:538:10: warning: unused variable ‘uspjesan’ [-Wunused-variable]
+     bool uspjesan = true;
+          ^~~~~~~~
+/rhome/l/lbuturovic1/workspace/ASP/PZ2/Z1/main.cpp: In instantiation of ‘void TestObrisi(const L&) [with L = NizLista<int>]’:
+/rhome/l/lbuturovic1/workspace/ASP/PZ2/Z1/main.cpp:667:18:   required from here
+/rhome/l/lbuturovic1/workspace/ASP/PZ2/Z1/main.cpp:538:10: warning: unused variable ‘uspjesan’ [-Wunused-variable]
+/rhome/l/lbuturovic1/workspace/ASP/PZ2/Z1/main.cpp: In instantiation of ‘JednostrukaLista<Tip>::JednostrukaLista(const JednostrukaLista<Tip>&) [with Tip = int]’:
+/rhome/l/lbuturovic1/workspace/ASP/PZ2/Z1/main.cpp:573:13:   required from ‘void TestUglaste(const L&) [with L = JednostrukaLista<int>]’
+/rhome/l/lbuturovic1/workspace/ASP/PZ2/Z1/main.cpp:657:18:   required from here
+/rhome/l/lbuturovic1/workspace/ASP/PZ2/Z1/main.cpp:434:20: warning: unused variable ‘i’ [-Wunused-variable]
+         Cvor<Tip>* i = lista.dajPocetni();
+                    ^
+/rhome/l/lbuturovic1/workspace/ASP/PZ2/Z1/main.cpp: In member function ‘const Tip JednostrukaLista<Tip>::operator[](int) const [with Tip = int]’:
+/rhome/l/lbuturovic1/workspace/ASP/PZ2/Z1/main.cpp:75:5: warning: control reaches end of non-void function [-Wreturn-type]
+     }
+     ^
+/rhome/l/lbuturovic1/workspace/ASP/PZ2/Z1/main.cpp: In member function ‘Tip& JednostrukaLista<Tip>::operator[](int) [with Tip = int]’:
+/rhome/l/lbuturovic1/workspace/ASP/PZ2/Z1/main.cpp:67:5: warning: control reaches end of non-void function [-Wreturn-type]
+     }
+     ^

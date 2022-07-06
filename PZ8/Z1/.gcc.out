@@ -1,0 +1,8 @@
+/rhome/l/lbuturovic1/workspace/ASP/PZ8/Z1/main.cpp: In function ‘int main()’:
+/rhome/l/lbuturovic1/workspace/ASP/PZ8/Z1/main.cpp:441:15: error: no matching function for call to ‘BinStabloMapa<int, int>::umetni(int&)’
+     m.umetni(i);
+               ^
+/rhome/l/lbuturovic1/workspace/ASP/PZ8/Z1/main.cpp:205:10: note: candidate: void BinStabloMapa<Tip1, Tip2>::umetni(Cvor<Tip1, Tip2>*&, Cvor<Tip1, Tip2>*&) [with Tip1 = int; Tip2 = int]
+     void umetni(Cvor<Tip1,Tip2>* &k, Cvor<Tip1,Tip2>* &novi)
+          ^~~~~~
+/rhome/l/lbuturovic1/workspace/ASP/PZ8/Z1/main.cpp:205:10: note:   candidate expects 2 arguments, 1 provided

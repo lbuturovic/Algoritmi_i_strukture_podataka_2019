@@ -1,0 +1,14 @@
+/rhome/l/lbuturovic1/workspace/ASP/Z5/Z1/main.cpp: In member function ‘GranaIterator<TipOznake>& GranaIterator<TipOznake>::operator++()’:
+/rhome/l/lbuturovic1/workspace/ASP/Z5/Z1/main.cpp:255:9: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+         for(i=p; i<graf->dajBrojCvorova(); i++)
+         ^~~
+/rhome/l/lbuturovic1/workspace/ASP/Z5/Z1/main.cpp:268:13: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+             *this = graf->dajGraneKraj();
+             ^
+/rhome/l/lbuturovic1/workspace/ASP/Z5/Z1/main.cpp: In member function ‘bool ListaGraf<TipOznake>::postojiGrana(int, int) const’:
+/rhome/l/lbuturovic1/workspace/ASP/Z5/Z1/main.cpp:454:8: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+        for(i=0; i<lista[p].size();i++)
+        ^~~
+/rhome/l/lbuturovic1/workspace/ASP/Z5/Z1/main.cpp:456:9: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+         return false;
+         ^~~~~~

@@ -1,0 +1,20 @@
+Testovi za klasu JednostrukaLista:
+brojElemenata: TEST USPJESAN
+dodajIza: TEST USPJESAN
+dodajIspred: TEST USPJESAN
+Operator uglasih zagrada: TEST USPJESAN
+Obrisi: TEST USPJESAN
+trenutni: TEST USPJESAN
+prethodni: TEST USPJESAN
+sljedeci: TEST USPJESAN
+
+Testovi za klasu NizLista:
+brojElemenata: TEST USPJESAN
+dodajIza: TEST USPJESAN
+dodajIspred: TEST USPJESAN
+Operator uglasih zagrada: TEST USPJESAN
+Obrisi: TEST USPJESAN
+trenutni: TEST USPJESAN
+prethodni: TEST USPJESAN
+sljedeci: TEST USPJESAN
+500 466 15 5 2 1 

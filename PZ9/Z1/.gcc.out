@@ -1,0 +1,12 @@
+/rhome/l/lbuturovic1/workspace/ASP/PZ9/Z1/main.cpp: In instantiation of ‘void BinStabloMapa<Tip1, Tip2>::obrisi(const Tip1&) [with Tip1 = int; Tip2 = int]’:
+/rhome/l/lbuturovic1/workspace/ASP/PZ9/Z1/main.cpp:640:29:   required from here
+/rhome/l/lbuturovic1/workspace/ASP/PZ9/Z1/main.cpp:304:26: warning: unused variable ‘q’ [-Wunused-variable]
+         Cvor<Tip1,Tip2>* q = nullptr;
+                          ^
+/rhome/l/lbuturovic1/workspace/ASP/PZ9/Z1/main.cpp:307:25: warning: unused variable ‘rp’ [-Wunused-variable]
+         Cvor<Tip1,Tip2>*rp = nullptr;
+                         ^~
+/rhome/l/lbuturovic1/workspace/ASP/PZ9/Z1/main.cpp: In member function ‘Cvor<Tip1, Tip2>* BinStabloMapa<Tip1, Tip2>::traziKljuc(Cvor<Tip1, Tip2>*, Tip1) const [with Tip1 = int; Tip2 = int]’:
+/rhome/l/lbuturovic1/workspace/ASP/PZ9/Z1/main.cpp:202:5: warning: control reaches end of non-void function [-Wreturn-type]
+     }
+     ^
